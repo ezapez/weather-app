@@ -33,7 +33,7 @@ def index():
             db.session.commit()
     cities = City.query.all()
 
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=31c8f0284e81bd2b3ee9f2bfa07d7957'
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid='
 
 
 
